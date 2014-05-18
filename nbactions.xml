@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-assembly</actionName>
+            <displayName>assembly</displayName>
+            <goals>
+                <goal>jar:jar</goal>
+                <goal>assembly:assembly</goal>
+            </goals>
+        </action>
+    </actions>

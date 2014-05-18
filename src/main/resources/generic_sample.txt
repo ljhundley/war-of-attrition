@@ -1,0 +1,39 @@
+# SAMPLE PARAMETER FILE #
+
+### Experiment Scope Parameters ###
+exp.id=60
+numOfMatches=5
+
+#### Generic Match Scope Parameters ####
+match.0.type=WarOfAttrition
+match.0.groupSize=2
+match.0.maxRounds=1
+match.0.exchangeRate=1.0
+
+# show total payoff on the history panel[true|false]
+match.0.showTotalPayoff=false
+
+#[totalrandom|random|zipper|rr|continue|fixed|RiskAversion]
+match.0.matching=totalrandom
+
+# show the match ending display dialog [true|false]
+match.0.displayFinishedInfo=true
+
+# History panel display mode [full|tabbed]
+match.0.defaultView=full
+
+# Whether to allow user switch history panel display modes [true|false]
+match.0.viewSwitchable=true
+
+# Whether to show the round number in the history panel (generally turn off if running single round matches)
+match.0.showRoundNumber=false
+
+# Whether or not the 0th match is a practice match or not.  Payoffs for 
+# practice matches are not included in a participant's total
+match.0.practice=false
+
+######### Specific Match Scope Parameters ############
+
+# Any game-specific parameters would go here
+
+match.0.repetitions=5

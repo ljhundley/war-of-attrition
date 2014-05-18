@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<plugin name="${project.name}" version="${project.version}">
+	
+    <author></author>
+    <creationDate></creationDate>
+    <copyright></copyright>
+    <license></license>
+    <contactEmail></contactEmail>
+    <contactURL>http://multistage.ssel.caltech.edu</contactURL>
+    <description></description>
+
+    <serverController>${serverControllerClassname}</serverController>
+    <clientGUI>${clientGUIClassname}</clientGUI>    
+
+</plugin>
